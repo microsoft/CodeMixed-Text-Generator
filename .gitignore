@@ -9,6 +9,10 @@
 *.user
 *.userosscache
 *.sln.docstates
+data/*
+.vscode
+alignment_generator/fast_align-master/
+stanford_parser/stanford_parser_full_2017_06_09/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
