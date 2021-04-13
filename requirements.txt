@@ -3,6 +3,6 @@ numpy
 tqdm
 flask
 graphviz
-tensorflow==1.15.4
+tensorflow==2.4.0
 benepar==0.1.2
 svgling
