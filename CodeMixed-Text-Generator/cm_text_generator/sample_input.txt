@@ -1,0 +1,6 @@
+0 0.0
+मछली की एक टोकरी
+a basket of fish
+(ROOT (NP (NP (DT a) (NN basket)) (PP (IN of) (NP (NN fish)))))
+0-3 1-2 2-0 3-1
+ec

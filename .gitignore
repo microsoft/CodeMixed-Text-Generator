@@ -9,7 +9,11 @@
 *.user
 *.userosscache
 *.sln.docstates
-
+.vscode
+CodeMixed-Text-Generator/alignment_generator/fast_align-master/
+CodeMixed-Text-Generator/stanford_parser/stanford_parser_full_2017_06_09/
+CodeMixed-Text-Generator/data/
+CodeMixed-Text-Generator/web/static/images/
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
