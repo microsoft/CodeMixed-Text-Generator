@@ -9,6 +9,14 @@ The toolkit can be used to generate unlabeled text data for pre-trained models, 
 
 **Please read the associated papers in conjunction with the documentation to understand the working of this tool, it's assumptions, corner-cases and the concepts behind it.**
 
+# Table of Contents
+---
+
+- [Project Structure](https://github.com/microsoft/CodeMixed-Text-Generator#project-structure)
+- [Installation](https://github.com/microsoft/CodeMixed-Text-Generator#installation)
+- [Usage](https://github.com/microsoft/CodeMixed-Text-Generator#usage)
+- [Cite](https://github.com/microsoft/CodeMixed-Text-Generator#cite)
+
 ## Project Structure
 ---
 
@@ -300,6 +308,29 @@ Where:
 
 For more information on using the Batch Mode, [here's the detailed documentation on Batch Mode.](docs/Batch_Mode.md)
 
+## Cite
+---
+
+If you're using this work, you can cite the following paper:
+
+```bibtex
+@inproceedings{rizvi-etal-2021-gcm,
+    title = "{GCM}: A Toolkit for Generating Synthetic Code-mixed Text",
+    author = "Rizvi, Mohd Sanad Zaki  and
+      Srinivasan, Anirudh  and
+      Ganu, Tanuja  and
+      Choudhury, Monojit  and
+      Sitaram, Sunayana",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.eacl-demos.24",
+    pages = "205--211",
+    abstract = "Code-mixing is common in multilingual communities around the world, and processing it is challenging due to the lack of labeled and unlabeled data. We describe a tool that can automatically generate code-mixed data given parallel data in two languages. We implement two linguistic theories of code-mixing, the Equivalence Constraint theory and the Matrix Language theory to generate all possible code-mixed sentences in the language-pair, followed by sampling of the generated data to generate natural code-mixed sentences. The toolkit provides three modes: a batch mode, an interactive library mode and a web-interface to address the needs of researchers, linguists and language experts. The toolkit can be used to generate unlabeled text data for pre-trained models, as well as visualize linguistic theories of code-mixing. We plan to release the toolkit as open source and extend it by adding more implementations of linguistic theories, visualization techniques and better sampling techniques. We expect that the release of this toolkit will help facilitate more research in code-mixing in diverse language pairs.",
+}
+```
 
 ## Contributors
 ---
