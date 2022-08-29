@@ -1,122 +1,124 @@
 {
-    "Registrations": [ 
-        {
-            "Component": { 
-                "Type": "git", 
-                "Git": {
-                    "RepositoryUrl": "https://github.com/clab/fast_align",
-                    "CommitHash": "cab1e9aac8d3bb02ff5ae58218d8d225a039fa11"
-                }
-            },
-            "DevelopmentDependency": false
-        },
-        {
-            "Component": { 
-                "Type": "other", 
-                "Other": {
-                    "Name": "Stanford Parser",
-                    "Version": "3.8.0",
-                    "DownloadUrl": "https://nlp.stanford.edu/software/stanford-parser-full-2017-06-09.zip" 
-                }
-            },
-            "DevelopmentDependency": false
-        },
-        {
-            "Component": { 
-                "Type": "other", 
-                "Other": {
-                    "Name": "rsvg-convert",
-                    "Version": "2.40.20",
-                    "DownloadUrl": "https://launchpad.net/ubuntu/bionic/+package/librsvg2-bin" 
-                }
-            },
-            "DevelopmentDependency": false
-        },
-        {
-            "Component": { 
-                "Type": "other", 
-                "Other": {
-                    "Name": "NFAtoDFA",
-                    "Version": "2 October 2015",
-                    "DownloadUrl": "stefanmendoza.dev@gmail.com" 
-                }
-            },
-            "DevelopmentDependency": false
-        },
-        {
-            "Component": { 
-                "Type": "other", 
-                "Other": {
-                    "Name": "jQuery",
-                    "Version": "3.5.1",
-                    "DownloadUrl": "https://jquery.com/download/" 
-                }
-            },
-            "DevelopmentDependency": false
-        },
-        {
-            "Component": { 
-                "Type": "other", 
-                "Other": {
-                    "Name": "Bootstrap",
-                    "Version": "5.0.0-beta2",
-                    "DownloadUrl": "https://getbootstrap.com/docs/5.0/getting-started/download/" 
-                }
-            },
-            "DevelopmentDependency": false
-        },
-        {
-            "Component": { 
-                "Type": "other", 
-                "Other": {
-                    "Name": "Select2",
-                    "Version": "4.1.0-rc.0",
-                    "DownloadUrl": "https://select2.org/getting-started/installation" 
-                }
-            },
-            "DevelopmentDependency": false
-        },
-        {
-            "Component": { 
-                "Type": "other", 
-                "Other": {
-                    "Name": "JQuery Dropdown",
-                    "Version": "2.0.3",
-                    "DownloadUrl": "https://github.com/soundasleep/jquery-dropdown" 
-                }
-            },
-            "DevelopmentDependency": false
-        },
-        {
-            "Component": { 
-                "Type": "other", 
-                "Other": {
-                    "Name": "Bootstrap Maxlength",
-                    "Version": "v1.10.0",
-                    "DownloadUrl": "https://github.com/mimo84/bootstrap-maxlength" 
-                }
-            },
-            "DevelopmentDependency": false
-        },
-        {
-            "Component": { 
-                "Type": "other", 
-                "Other": {
-                    "Name": "Font Awesome",
-                    "Version": "5.15.2",
-                    "DownloadUrl": "https://fontawesome.com/download" 
-                }
-            },
-            "DevelopmentDependency": false
-        },        {
-            "Component": { 
-                "Type": "git", 
-                "Git": {
-                    "RepositoryUrl": "https://github.com/reverie/python-automata",
-                    "CommitHash": "8b3929a79489045ddab0733bc388809aacaebdb7"
-                }
-            },
-            "DevelopmentDependency": false
+  "$schema": "https://json.schemastore.org/component-detection-manifest.json",
+  "Registrations": [
+    {
+      "Component": {
+        "Type": "git",
+        "Git": {
+          "RepositoryUrl": "https://github.com/clab/fast_align",
+          "CommitHash": "cab1e9aac8d3bb02ff5ae58218d8d225a039fa11"
         }
-    ]
+      },
+      "DevelopmentDependency": false
+    },
+    {
+      "Component": {
+        "Type": "other",
+        "Other": {
+          "Name": "Stanford Parser",
+          "Version": "3.8.0",
+          "DownloadUrl": "https://nlp.stanford.edu/software/stanford-parser-full-2017-06-09.zip"
+        }
+      },
+      "DevelopmentDependency": false
+    },
+    {
+      "Component": {
+        "Type": "other",
+        "Other": {
+          "Name": "rsvg-convert",
+          "Version": "2.40.20",
+          "DownloadUrl": "https://launchpad.net/ubuntu/bionic/+package/librsvg2-bin"
+        }
+      },
+      "DevelopmentDependency": false
+    },
+    {
+      "Component": {
+        "Type": "other",
+        "Other": {
+          "Name": "NFAtoDFA",
+          "Version": "2 October 2015",
+          "DownloadUrl": "stefanmendoza.dev@gmail.com"
+        }
+      },
+      "DevelopmentDependency": false
+    },
+    {
+      "Component": {
+        "Type": "other",
+        "Other": {
+          "Name": "jQuery",
+          "Version": "3.5.1",
+          "DownloadUrl": "https://jquery.com/download/"
+        }
+      },
+      "DevelopmentDependency": false
+    },
+    {
+      "Component": {
+        "Type": "other",
+        "Other": {
+          "Name": "Bootstrap",
+          "Version": "5.0.0-beta2",
+          "DownloadUrl": "https://getbootstrap.com/docs/5.0/getting-started/download/"
+        }
+      },
+      "DevelopmentDependency": false
+    },
+    {
+      "Component": {
+        "Type": "other",
+        "Other": {
+          "Name": "Select2",
+          "Version": "4.1.0-rc.0",
+          "DownloadUrl": "https://select2.org/getting-started/installation"
+        }
+      },
+      "DevelopmentDependency": false
+    },
+    {
+      "Component": {
+        "Type": "other",
+        "Other": {
+          "Name": "JQuery Dropdown",
+          "Version": "2.0.3",
+          "DownloadUrl": "https://github.com/soundasleep/jquery-dropdown"
+        }
+      },
+      "DevelopmentDependency": false
+    },
+    {
+      "Component": {
+        "Type": "other",
+        "Other": {
+          "Name": "Bootstrap Maxlength",
+          "Version": "v1.10.0",
+          "DownloadUrl": "https://github.com/mimo84/bootstrap-maxlength"
+        }
+      },
+      "DevelopmentDependency": false
+    },
+    {
+      "Component": {
+        "Type": "other",
+        "Other": {
+          "Name": "Font Awesome",
+          "Version": "5.15.2",
+          "DownloadUrl": "https://fontawesome.com/download"
+        }
+      },
+      "DevelopmentDependency": false
+    },
+    {
+      "Component": {
+        "Type": "git",
+        "Git": {
+          "RepositoryUrl": "https://github.com/reverie/python-automata",
+          "CommitHash": "8b3929a79489045ddab0733bc388809aacaebdb7"
+        }
+      },
+      "DevelopmentDependency": false
+    }
+  ]
 }
